@@ -1,0 +1,128 @@
+﻿/*@colorletter: #FF7519;
+@colortop: #3030FF;
+@colorbottom: #0000E6;
+*/
+body{
+			background: url("backpic.jpg") fixed;
+			padding:0px;
+			margin:0px;
+}
+input{
+			text-align:center;
+}
+
+div.def{
+			background: -webkit-gradient(linear, center top, center bottom, from(#3030FF), to(#0000E6));
+			background: -webkit-linear-gradient(#3030FF, #0000E6); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(#3030FF, #0000E6); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(#3030FF, #0000E6); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(#3030FF, #0000E6); /* Standard syntax */
+			box-shadow: 2px 2px 5px #2e2e2e;
+			border:0px solid;
+			border-radius:10px;
+			color:#FF7519;
+			font-style:arial;
+			text-align:center;
+}
+
+div#frame{ 	
+			margin:0px auto;
+			width: 1000px;
+			height: 600px;
+			padding:0px;
+}
+div#contain{ 	
+			float: left;
+			width: 1000px;
+			height: 600px;
+			border-radius: 10px;
+			border:0px solid;
+			margin:0px;
+			padding:0px;
+			
+}
+div#head {		
+			width:1000px;
+			padding-bottom:15px;
+			height: 20px;
+			margin-bottom:20px;
+}
+
+
+
+div#top{
+			width:970px;
+			float: left;
+			min-height: 530px;
+			margin-left: 0px;
+			margin-bottom: 20px;
+			padding:15px;
+			padding-bottom:15px;
+			padding-top:10px;
+			
+			text-align: left;
+			
+			
+}
+div#top h2 {
+			font:italic bold 30px calibri;
+			color:white;
+			
+}
+div#top p {
+			font:italic bold 15px calibri;
+			color:#FF7519;
+			float:center
+}
+div#top ul li{
+			font:italic bold 15px calibri;
+			color:#FF7519;
+}
+div#top table{
+			font:italic bold 15px calibri;
+			color:#FF7519;
+			float: center;
+			border:0px;
+			
+			width: 40%;
+}
+div#top table tr td {
+			text-align:center;
+			width:50px;
+}
+
+a.button{
+			font:italic bold 15px calibri;
+			color:#FF7519;
+			text-decoration:none;
+			padding:4px 10px 4px 10px;
+			background-color:white;
+			border:2px solid #FF7519;
+			border-left:4px solid white;
+			height: 16px;
+			display: block;
+			background-color:white;
+			border-radius:15px;
+}
+
+a.button:hover{
+			border:2px solid #ccc;
+			border-left:4px solid #FF7519;
+}
+
+table tr.wh{
+			color:white;
+}
+
+
+
+
+div#imp{		float: left;
+			width: 1000px;
+			height: 20px;
+			font:italic bold 10px calibri;
+			color:#FF7519;
+			padding-top:5px;
+			
+			
+}

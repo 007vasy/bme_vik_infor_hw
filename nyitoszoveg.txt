@@ -1,0 +1,28 @@
+Épületüzemeltetés
+Egy épületüzemeltetéssel foglalkozó cég elhatározta, hogy az általa felügyelt irodaházak hatékonyabb
+üzemeltetése céljából összegyûjti a különbözõ épületekben lehelyezett érzékelõk jeleit és egy
+egységes elemzõ rendszert készít. A szobákban különbözõ érzékelõ lehet elhelyezve (hõmérséklet,
+páratartalom, kívánt hõmérséklet, külsõ redõny állása, stb.) ezen érzékelõk épületenként és
+szobánként sem egységesek, viszont közös jellemzõjük, hogy float adattípussal leírhatók és a
+méréshez egy idõbélyeg is tartozik. A nyilvántartó rendszerben lehetõséget kell biztosítani több
+épület kezelésére is, egy épület több szobából állhat. Az alábbi alapadatokat kell nyilvántartásba
+venni: épület (név, cím, alapterület), szoba (emelet, ajtó, alapterület, ablakfelület nagysága),
+mérhetõ jel (név, minimum érték, maximum érték), mért jel (idõpont, érték).
+A feladat megtervezni és megvalósítani egy webes rendszert, amely az alábbi követelményeknek felel
+meg.
+? A rendszer nyitóoldala egy statikus HTML oldal, amelytõl a különbözõ megvalósítandó
+funkciók érhetõek el linkek segítségével.
+? Készítsen egy nyitóoldalról elérhetõ oldalt, mely kilistázza rendszerben rögzített mérhetõ
+jelek listáját táblázatosan.
+? Egy jeltípusra kattintva az elõzõ oldalon, betöltõdik egy oldal, mely segítségével
+módosíthatók a jeltípus jellemzõi. Itt valósítsa meg a törlés funkciót is!
+? Készítsen egy nyitóoldalról elérhetõ oldalt, mely a mért jelek listázására szolgál. Keresés
+során ki kell választani az épületet és egy idõ intervallumot. A mért értékeket szoba, jeltípus
+és idõ szerint rendezve adja vissza táblázatosan!
+? Minden oldalon legyen egységes fejléc és lábléc. A fejlécben menüként szerepeljen a többi
+megvalósított oldal elérhetõsége. A láblécben szerepeljen a feladatot elkészítõ hallgató és
+laborvezetõjének adatai.
+? Beadandó az elkészített program (az adatbázist létrehozó és minta adatokkal feltöltõ script, a
+html, php és css fájlok) és a dokumentáció hozzá (adatbázis terv, rendszerterv, funkcionális
+leírás).
+? Az adatbázis az adatokat normalizált formában tárolja
